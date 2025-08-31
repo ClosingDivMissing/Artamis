@@ -1,0 +1,61 @@
+.Customers {
+  background-color: hsl(0, 0%, 9%);
+  width: 100%;
+  height: 300px;
+}
+.Customers .container {
+  height: 100%;
+  width: 1500px;
+
+  margin: auto;
+  text-align: center;
+  display: flex;
+
+  flex-direction: column;
+}
+.Customers .container .title {
+  font-size: 32px;
+  font-family: "Aviny";
+  color: aliceblue;
+  margin-top: 20px;
+}
+.Customers .container .swiper-cover {
+  margin-top: 30px;
+}
+.Customers .container .swiper-cover .slide {
+  width: 140px;
+  height: 150px;
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.Customers .container .swiper-cover .slide img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 1536px) {
+  .Customers .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .Customers .container .swiper-cover .slide {
+    width: 120px;
+    height: 120px;
+  }
+  .Customers .container {
+    background-color: hsl(0, 0%, 9%);
+    width: 95%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Customers .container .swiper-cover .slide {
+    width: 90%;
+    height: 120px;
+  }
+}

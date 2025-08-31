@@ -1,0 +1,41 @@
+.Comment {
+  width: 430px;
+  height: 220px;
+  background-color: #1d1d1d;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+
+  display: flex;
+  direction: rtl;
+
+  padding: 15px 60px 15px 50px;
+  flex-direction: column;
+  gap: 15px;
+}
+.Comment img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80px;
+  height: 80px;
+  right: -40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.Comment h5 {
+  color: rgb(219, 219, 219);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Aviny";
+}
+.Comment p {
+  text-align: justify;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+}
+@media only screen and (max-width: 1430px) {
+  .Comment {
+    width: 90%;
+  }
+}

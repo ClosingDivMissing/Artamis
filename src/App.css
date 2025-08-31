@@ -1,0 +1,12 @@
+* {
+  font-family: "kalameh";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: hsl(0, 0%, 9%);
+}
+:root {
+  --paragraph-color: #2e2e2e;
+}

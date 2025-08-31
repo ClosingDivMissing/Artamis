@@ -1,0 +1,65 @@
+.Lawyers {
+  background-color: hsl(0, 0%, 9%);
+  width: 100%;
+  height: auto;
+  background-image: url(../../images/customerBg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Lawyers .container {
+  display: flex;
+  position: relative;
+  align-items: center;
+
+  flex-direction: column;
+  margin: auto;
+  width: 1500px;
+
+  height: 100%;
+}
+
+.Lawyers .container .card-section {
+  margin-top: 40px;
+
+  display: flex;
+}
+@media only screen and (max-width: 1536px) {
+  .Lawyers .container {
+    width: 100%;
+  }
+  .Lawyers .container .card-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+}
+@media only screen and (max-width: 1286px) {
+  .Lawyers .container .card-section {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1031px) {
+  .Lawyers .container .card-section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    width: 80%;
+    grid-row-gap: 20px;
+  }
+  @media only screen and (max-width: 800px) {
+    .Lawyers .container .card-section {
+      width: 95%;
+    }
+  }
+  @media only screen and (max-width: 520px) {
+    .Lawyers .container .card-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 0 15px;
+    }
+  }
+}

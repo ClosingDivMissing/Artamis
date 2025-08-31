@@ -1,0 +1,33 @@
+.title-title {
+  color: aliceblue;
+  font-family: "Aviny";
+  font-size: 35px;
+}
+.title-paragraph {
+  color: rgb(179, 184, 189);
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+.title-container {
+  text-align: center;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 800px) {
+  .title-title {
+    font-size: 28px;
+    margin-top: 45px;
+  }
+  .title-paragraph {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .title-paragraph {
+    width: 90%;
+    font-size: 15px;
+  }
+}

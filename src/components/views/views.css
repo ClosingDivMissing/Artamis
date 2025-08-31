@@ -1,0 +1,25 @@
+.Views {
+  background-color: hsl(0, 0%, 9%);
+  width: 100%;
+
+  height: 500px;
+}
+.Views .container {
+  width: 1550px;
+  margin-top: 30px;
+
+  margin: auto;
+  display: flex;
+
+  justify-content: center;
+}
+.Views .view-slider {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0 20px;
+}
+@media only screen and (max-width: 1536px) {
+  .Views .container {
+    width: 100%;
+  }
+}
