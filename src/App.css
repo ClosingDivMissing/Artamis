@@ -1,5 +1,5 @@
 * {
-  font-family: "kalameh";
+  font-family: "Kalameh";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,4 +9,39 @@
 }
 :root {
   --paragraph-color: #2e2e2e;
+}
+@font-face {
+  font-family: "Aviny";
+  src: url("./fonts/aviny-700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Kalameh */
+@font-face {
+  font-family: "Kalameh";
+  src: url("./fonts/Kalameh-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kalameh";
+  src: url("./fonts/Kalameh-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kalameh";
+  src: url("./fonts/Kalameh-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kalameh";
+  src: url("./fonts/Kalameh-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
 }
