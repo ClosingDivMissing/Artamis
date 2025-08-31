@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Artamis/static/css/main.b3530cfb.css",
+    "main.js": "/Artamis/static/js/main.627e1575.js",
+    "static/media/BG_LOGO.png": "/Artamis/static/media/BG_LOGO.35342951155cfd34100c.png",
+    "static/media/lawyer3.png": "/Artamis/static/media/lawyer3.a7863e990d4b2f0b7af8.png",
+    "static/media/lawyer1.png": "/Artamis/static/media/lawyer1.f6f3a1c4b6502eda31f9.png",
+    "static/media/lawyer4.png": "/Artamis/static/media/lawyer4.0084520019b7161b51d2.png",
+    "static/media/lawyer2.png": "/Artamis/static/media/lawyer2.27c6bfcf2b69160fc43d.png",
+    "static/media/lawyer1.jpg": "/Artamis/static/media/lawyer1.ebc26286cbd6e50d7df9.jpg",
+    "static/media/curtroom.jpg": "/Artamis/static/media/curtroom.22f238a7e10cda30ad2c.jpg",
+    "static/media/square.png": "/Artamis/static/media/square.4ca22acae1e2b52da5c7.png",
+    "static/media/logo.png": "/Artamis/static/media/logo.dbba679733a3a8e75b32.png",
+    "static/media/snapfood.png": "/Artamis/static/media/snapfood.32b44bc7d6849b3feac1.png",
+    "static/media/snap.png": "/Artamis/static/media/snap.53a82764c1791a859dcc.png",
+    "static/media/tapsi.png": "/Artamis/static/media/tapsi.d4b657cccd2ef4681c23.png",
+    "static/media/emalls.png": "/Artamis/static/media/emalls.bf6f91e5f3e7939015fe.png",
+    "static/media/customerBg.png": "/Artamis/static/media/customerBg.f1d06a3cc2882bd128f1.png",
+    "static/media/customerBg2.png": "/Artamis/static/media/customerBg2.a49e8c4d5440fc41da10.png",
+    "static/media/BG_TEXT.png": "/Artamis/static/media/BG_TEXT.ae18edc844067479c3c4.png",
+    "index.html": "/Artamis/index.html",
+    "main.b3530cfb.css.map": "/Artamis/static/css/main.b3530cfb.css.map",
+    "main.627e1575.js.map": "/Artamis/static/js/main.627e1575.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3530cfb.css",
+    "static/js/main.627e1575.js"
+  ]
+}
